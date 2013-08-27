@@ -9,13 +9,15 @@ For "duino" see: https://github.com/ecto/duino
 
 change only the ./lib/board.js 
 
-# COM Port selection
+# Windows COM Port selection
 
+````javascript
 var board = new arduino.Board({
   debug: true,
   device: 'COM22',
   baudrate: 115200
 });
+````
 
 # usage
 
